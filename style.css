@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #333333;
     text-align: center;
     margin-top: 20px;
 }
@@ -18,10 +18,13 @@ table {
     width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
+    border-color: #000000;
+    border-width: 2px;
+    background-color: lightblue;
 }
 
 table, th, td {
-    border: 1px solid #999;
+    border: 1px solid #000000;
 }
 
 th, td {
