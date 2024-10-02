@@ -1,5 +1,40 @@
 /* Dit is het stylesheet voor de GitHub Classroom Opdracht */
+header{
+background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position:fixed;
+width: 100;
+height: 30px;
+top: 0;
+right: 0;
+z-index:1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 700px;
+padding: 2rem 5rem;}
 
+header h4{
+    color:white
+}
+.navmenu{
+    display: flex;
+}
+.navmenu a {
+    display: inline-block;
+    margin: 0 2rem;
+    color: black;
+    font-weight: 500;
+    transition: all 0,6;
+    text-decoration: none;
+}
+
+.navmenu a:hover{
+    transform: translateY(-8px);
+}
+.navmenu li{
+    list-style: none;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,7 +44,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #333333;
     text-align: center;
     margin-top: 20px;
 }
@@ -18,11 +53,12 @@ table {
     width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
+    border-color: #000000;
+    border-width: 2px;
+    background-color: lightblue;
 }
 
-table, th, td {
-    border: 5px solid #000000;
-}
+
 
 th, td {
     padding: 10px;
